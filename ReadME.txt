@@ -20,3 +20,6 @@ As we need postgres to run this application, we can download the postgres images
 
 Now we have both the images with us, we can write the docker-compose.yml file and run both the images using docker-compose up command
     docker-compose up
+
+
+docker hub images : prak5192/my-rest-app
