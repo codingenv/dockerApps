@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   app:
-    image: my-springboot-app
+    image: prak5192/my-rest-app
     ports:
       - "8080:8080"
     depends_on:
