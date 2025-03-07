@@ -24,7 +24,7 @@ public class RestApplication {
 
 	@PostConstruct
 	public void printAllEndPoints(){
-		System.out.println("Printing Endpoints");
+		System.out.println("Printing all exposed Endpoints");
 		Set<String> endpoints = requestMappingHandlerMapping.getHandlerMethods().keySet().stream()
 				.map(RequestMappingInfo::toString)
 				.collect(Collectors.toSet());
